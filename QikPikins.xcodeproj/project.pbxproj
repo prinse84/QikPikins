@@ -1,0 +1,484 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC99F64513CD462A00EBC2E1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC99F64413CD462A00EBC2E1 /* UIKit.framework */; };
+		AC99F64713CD462A00EBC2E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC99F64613CD462A00EBC2E1 /* Foundation.framework */; };
+		AC99F64913CD462A00EBC2E1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC99F64813CD462A00EBC2E1 /* CoreGraphics.framework */; };
+		AC99F64B13CD462A00EBC2E1 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC99F64A13CD462A00EBC2E1 /* CoreData.framework */; };
+		AC99F65113CD462A00EBC2E1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AC99F64F13CD462A00EBC2E1 /* InfoPlist.strings */; };
+		AC99F65413CD462A00EBC2E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AC99F65313CD462A00EBC2E1 /* main.m */; };
+		AC99F65713CD462A00EBC2E1 /* QikPikinsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AC99F65613CD462A00EBC2E1 /* QikPikinsAppDelegate.m */; };
+		AC99F65A13CD462A00EBC2E1 /* QikPikins.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AC99F65813CD462A00EBC2E1 /* QikPikins.xcdatamodeld */; };
+		AC99F65D13CD462A00EBC2E1 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC99F65B13CD462A00EBC2E1 /* MainWindow.xib */; };
+		AC99F66013CD462A00EBC2E1 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC99F65F13CD462A00EBC2E1 /* RootViewController.m */; };
+		AC99F66313CD462A00EBC2E1 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC99F66113CD462A00EBC2E1 /* RootViewController.xib */; };
+		AC99F66A13CD462A00EBC2E1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC99F64413CD462A00EBC2E1 /* UIKit.framework */; };
+		AC99F66B13CD462A00EBC2E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC99F64613CD462A00EBC2E1 /* Foundation.framework */; };
+		AC99F66C13CD462A00EBC2E1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC99F64813CD462A00EBC2E1 /* CoreGraphics.framework */; };
+		AC99F66D13CD462A00EBC2E1 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC99F64A13CD462A00EBC2E1 /* CoreData.framework */; };
+		AC99F67513CD462A00EBC2E1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AC99F67313CD462A00EBC2E1 /* InfoPlist.strings */; };
+		AC99F67813CD462A00EBC2E1 /* QikPikinsTests.h in Resources */ = {isa = PBXBuildFile; fileRef = AC99F67713CD462A00EBC2E1 /* QikPikinsTests.h */; };
+		AC99F67A13CD462A00EBC2E1 /* QikPikinsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC99F67913CD462A00EBC2E1 /* QikPikinsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC99F66E13CD462A00EBC2E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC99F63713CD462A00EBC2E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC99F63F13CD462A00EBC2E1;
+			remoteInfo = QikPikins;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC99F64013CD462A00EBC2E1 /* QikPikins.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QikPikins.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC99F64413CD462A00EBC2E1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AC99F64613CD462A00EBC2E1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AC99F64813CD462A00EBC2E1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AC99F64A13CD462A00EBC2E1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		AC99F64E13CD462A00EBC2E1 /* QikPikins-Info.plist */ = {isa = PBXFileReference; path = "QikPikins-Info.plist"; sourceTree = "<group>"; };
+		AC99F65013CD462A00EBC2E1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AC99F65213CD462A00EBC2E1 /* QikPikins-Prefix.pch */ = {isa = PBXFileReference; path = "QikPikins-Prefix.pch"; sourceTree = "<group>"; };
+		AC99F65313CD462A00EBC2E1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AC99F65513CD462A00EBC2E1 /* QikPikinsAppDelegate.h */ = {isa = PBXFileReference; path = QikPikinsAppDelegate.h; sourceTree = "<group>"; };
+		AC99F65613CD462A00EBC2E1 /* QikPikinsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QikPikinsAppDelegate.m; sourceTree = "<group>"; };
+		AC99F65913CD462A00EBC2E1 /* QikPikins.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = QikPikins.xcdatamodel; sourceTree = "<group>"; };
+		AC99F65C13CD462A00EBC2E1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		AC99F65E13CD462A00EBC2E1 /* RootViewController.h */ = {isa = PBXFileReference; path = RootViewController.h; sourceTree = "<group>"; };
+		AC99F65F13CD462A00EBC2E1 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		AC99F66213CD462A00EBC2E1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+		AC99F66913CD462A00EBC2E1 /* QikPikinsTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QikPikinsTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC99F67213CD462A00EBC2E1 /* QikPikinsTests-Info.plist */ = {isa = PBXFileReference; path = "QikPikinsTests-Info.plist"; sourceTree = "<group>"; };
+		AC99F67413CD462A00EBC2E1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AC99F67613CD462A00EBC2E1 /* QikPikinsTests-Prefix.pch */ = {isa = PBXFileReference; path = "QikPikinsTests-Prefix.pch"; sourceTree = "<group>"; };
+		AC99F67713CD462A00EBC2E1 /* QikPikinsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QikPikinsTests.h; sourceTree = "<group>"; };
+		AC99F67913CD462A00EBC2E1 /* QikPikinsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QikPikinsTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC99F63D13CD462A00EBC2E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC99F64513CD462A00EBC2E1 /* UIKit.framework in Frameworks */,
+				AC99F64713CD462A00EBC2E1 /* Foundation.framework in Frameworks */,
+				AC99F64913CD462A00EBC2E1 /* CoreGraphics.framework in Frameworks */,
+				AC99F64B13CD462A00EBC2E1 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC99F66513CD462A00EBC2E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC99F66A13CD462A00EBC2E1 /* UIKit.framework in Frameworks */,
+				AC99F66B13CD462A00EBC2E1 /* Foundation.framework in Frameworks */,
+				AC99F66C13CD462A00EBC2E1 /* CoreGraphics.framework in Frameworks */,
+				AC99F66D13CD462A00EBC2E1 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC99F63513CD462A00EBC2E1 = {
+			isa = PBXGroup;
+			children = (
+				AC99F64C13CD462A00EBC2E1 /* QikPikins */,
+				AC99F67013CD462A00EBC2E1 /* QikPikinsTests */,
+				AC99F64313CD462A00EBC2E1 /* Frameworks */,
+				AC99F64113CD462A00EBC2E1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC99F64113CD462A00EBC2E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC99F64013CD462A00EBC2E1 /* QikPikins.app */,
+				AC99F66913CD462A00EBC2E1 /* QikPikinsTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC99F64313CD462A00EBC2E1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC99F64413CD462A00EBC2E1 /* UIKit.framework */,
+				AC99F64613CD462A00EBC2E1 /* Foundation.framework */,
+				AC99F64813CD462A00EBC2E1 /* CoreGraphics.framework */,
+				AC99F64A13CD462A00EBC2E1 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AC99F64C13CD462A00EBC2E1 /* QikPikins */ = {
+			isa = PBXGroup;
+			children = (
+				AC99F65513CD462A00EBC2E1 /* QikPikinsAppDelegate.h */,
+				AC99F65613CD462A00EBC2E1 /* QikPikinsAppDelegate.m */,
+				AC99F65B13CD462A00EBC2E1 /* MainWindow.xib */,
+				AC99F65E13CD462A00EBC2E1 /* RootViewController.h */,
+				AC99F65F13CD462A00EBC2E1 /* RootViewController.m */,
+				AC99F66113CD462A00EBC2E1 /* RootViewController.xib */,
+				AC99F65813CD462A00EBC2E1 /* QikPikins.xcdatamodeld */,
+				AC99F64D13CD462A00EBC2E1 /* Supporting Files */,
+			);
+			path = QikPikins;
+			sourceTree = "<group>";
+		};
+		AC99F64D13CD462A00EBC2E1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC99F64E13CD462A00EBC2E1 /* QikPikins-Info.plist */,
+				AC99F64F13CD462A00EBC2E1 /* InfoPlist.strings */,
+				AC99F65213CD462A00EBC2E1 /* QikPikins-Prefix.pch */,
+				AC99F65313CD462A00EBC2E1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AC99F67013CD462A00EBC2E1 /* QikPikinsTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC99F67713CD462A00EBC2E1 /* QikPikinsTests.h */,
+				AC99F67913CD462A00EBC2E1 /* QikPikinsTests.m */,
+				AC99F67113CD462A00EBC2E1 /* Supporting Files */,
+			);
+			path = QikPikinsTests;
+			sourceTree = "<group>";
+		};
+		AC99F67113CD462A00EBC2E1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC99F67213CD462A00EBC2E1 /* QikPikinsTests-Info.plist */,
+				AC99F67313CD462A00EBC2E1 /* InfoPlist.strings */,
+				AC99F67613CD462A00EBC2E1 /* QikPikinsTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC99F63F13CD462A00EBC2E1 /* QikPikins */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC99F67D13CD462A00EBC2E1 /* Build configuration list for PBXNativeTarget "QikPikins" */;
+			buildPhases = (
+				AC99F63C13CD462A00EBC2E1 /* Sources */,
+				AC99F63D13CD462A00EBC2E1 /* Frameworks */,
+				AC99F63E13CD462A00EBC2E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QikPikins;
+			productName = QikPikins;
+			productReference = AC99F64013CD462A00EBC2E1 /* QikPikins.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC99F66813CD462A00EBC2E1 /* QikPikinsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC99F68013CD462A00EBC2E1 /* Build configuration list for PBXNativeTarget "QikPikinsTests" */;
+			buildPhases = (
+				AC99F66413CD462A00EBC2E1 /* Sources */,
+				AC99F66513CD462A00EBC2E1 /* Frameworks */,
+				AC99F66613CD462A00EBC2E1 /* Resources */,
+				AC99F66713CD462A00EBC2E1 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC99F66F13CD462A00EBC2E1 /* PBXTargetDependency */,
+			);
+			name = QikPikinsTests;
+			productName = QikPikinsTests;
+			productReference = AC99F66913CD462A00EBC2E1 /* QikPikinsTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC99F63713CD462A00EBC2E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = NA;
+			};
+			buildConfigurationList = AC99F63A13CD462A00EBC2E1 /* Build configuration list for PBXProject "QikPikins" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AC99F63513CD462A00EBC2E1;
+			productRefGroup = AC99F64113CD462A00EBC2E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC99F63F13CD462A00EBC2E1 /* QikPikins */,
+				AC99F66813CD462A00EBC2E1 /* QikPikinsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC99F63E13CD462A00EBC2E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC99F65113CD462A00EBC2E1 /* InfoPlist.strings in Resources */,
+				AC99F65D13CD462A00EBC2E1 /* MainWindow.xib in Resources */,
+				AC99F66313CD462A00EBC2E1 /* RootViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC99F66613CD462A00EBC2E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC99F67513CD462A00EBC2E1 /* InfoPlist.strings in Resources */,
+				AC99F67813CD462A00EBC2E1 /* QikPikinsTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AC99F66713CD462A00EBC2E1 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC99F63C13CD462A00EBC2E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC99F65413CD462A00EBC2E1 /* main.m in Sources */,
+				AC99F65713CD462A00EBC2E1 /* QikPikinsAppDelegate.m in Sources */,
+				AC99F65A13CD462A00EBC2E1 /* QikPikins.xcdatamodeld in Sources */,
+				AC99F66013CD462A00EBC2E1 /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC99F66413CD462A00EBC2E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC99F67A13CD462A00EBC2E1 /* QikPikinsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC99F66F13CD462A00EBC2E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC99F63F13CD462A00EBC2E1 /* QikPikins */;
+			targetProxy = AC99F66E13CD462A00EBC2E1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AC99F64F13CD462A00EBC2E1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC99F65013CD462A00EBC2E1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AC99F65B13CD462A00EBC2E1 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC99F65C13CD462A00EBC2E1 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		AC99F66113CD462A00EBC2E1 /* RootViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC99F66213CD462A00EBC2E1 /* en */,
+			);
+			name = RootViewController.xib;
+			sourceTree = "<group>";
+		};
+		AC99F67313CD462A00EBC2E1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC99F67413CD462A00EBC2E1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC99F67B13CD462A00EBC2E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AC99F67C13CD462A00EBC2E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		AC99F67E13CD462A00EBC2E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QikPikins/QikPikins-Prefix.pch";
+				INFOPLIST_FILE = "QikPikins/QikPikins-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AC99F67F13CD462A00EBC2E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QikPikins/QikPikins-Prefix.pch";
+				INFOPLIST_FILE = "QikPikins/QikPikins-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		AC99F68113CD462A00EBC2E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/QikPikins.app/QikPikins";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QikPikinsTests/QikPikinsTests-Prefix.pch";
+				INFOPLIST_FILE = "QikPikinsTests/QikPikinsTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		AC99F68213CD462A00EBC2E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/QikPikins.app/QikPikins";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QikPikinsTests/QikPikinsTests-Prefix.pch";
+				INFOPLIST_FILE = "QikPikinsTests/QikPikinsTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC99F63A13CD462A00EBC2E1 /* Build configuration list for PBXProject "QikPikins" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC99F67B13CD462A00EBC2E1 /* Debug */,
+				AC99F67C13CD462A00EBC2E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC99F67D13CD462A00EBC2E1 /* Build configuration list for PBXNativeTarget "QikPikins" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC99F67E13CD462A00EBC2E1 /* Debug */,
+				AC99F67F13CD462A00EBC2E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AC99F68013CD462A00EBC2E1 /* Build configuration list for PBXNativeTarget "QikPikinsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC99F68113CD462A00EBC2E1 /* Debug */,
+				AC99F68213CD462A00EBC2E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AC99F65813CD462A00EBC2E1 /* QikPikins.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AC99F65913CD462A00EBC2E1 /* QikPikins.xcdatamodel */,
+			);
+			currentVersion = AC99F65913CD462A00EBC2E1 /* QikPikins.xcdatamodel */;
+			path = QikPikins.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AC99F63713CD462A00EBC2E1 /* Project object */;
+}
