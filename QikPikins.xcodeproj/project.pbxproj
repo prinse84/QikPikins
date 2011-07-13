@@ -43,21 +43,21 @@
 		AC99F64613CD462A00EBC2E1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		AC99F64813CD462A00EBC2E1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		AC99F64A13CD462A00EBC2E1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		AC99F64E13CD462A00EBC2E1 /* QikPikins-Info.plist */ = {isa = PBXFileReference; path = "QikPikins-Info.plist"; sourceTree = "<group>"; };
+		AC99F64E13CD462A00EBC2E1 /* QikPikins-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QikPikins-Info.plist"; sourceTree = "<group>"; };
 		AC99F65013CD462A00EBC2E1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		AC99F65213CD462A00EBC2E1 /* QikPikins-Prefix.pch */ = {isa = PBXFileReference; path = "QikPikins-Prefix.pch"; sourceTree = "<group>"; };
+		AC99F65213CD462A00EBC2E1 /* QikPikins-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QikPikins-Prefix.pch"; sourceTree = "<group>"; };
 		AC99F65313CD462A00EBC2E1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		AC99F65513CD462A00EBC2E1 /* QikPikinsAppDelegate.h */ = {isa = PBXFileReference; path = QikPikinsAppDelegate.h; sourceTree = "<group>"; };
+		AC99F65513CD462A00EBC2E1 /* QikPikinsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QikPikinsAppDelegate.h; sourceTree = "<group>"; };
 		AC99F65613CD462A00EBC2E1 /* QikPikinsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QikPikinsAppDelegate.m; sourceTree = "<group>"; };
 		AC99F65913CD462A00EBC2E1 /* QikPikins.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = QikPikins.xcdatamodel; sourceTree = "<group>"; };
 		AC99F65C13CD462A00EBC2E1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		AC99F65E13CD462A00EBC2E1 /* RootViewController.h */ = {isa = PBXFileReference; path = RootViewController.h; sourceTree = "<group>"; };
+		AC99F65E13CD462A00EBC2E1 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		AC99F65F13CD462A00EBC2E1 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		AC99F66213CD462A00EBC2E1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
 		AC99F66913CD462A00EBC2E1 /* QikPikinsTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QikPikinsTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		AC99F67213CD462A00EBC2E1 /* QikPikinsTests-Info.plist */ = {isa = PBXFileReference; path = "QikPikinsTests-Info.plist"; sourceTree = "<group>"; };
+		AC99F67213CD462A00EBC2E1 /* QikPikinsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QikPikinsTests-Info.plist"; sourceTree = "<group>"; };
 		AC99F67413CD462A00EBC2E1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		AC99F67613CD462A00EBC2E1 /* QikPikinsTests-Prefix.pch */ = {isa = PBXFileReference; path = "QikPikinsTests-Prefix.pch"; sourceTree = "<group>"; };
+		AC99F67613CD462A00EBC2E1 /* QikPikinsTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QikPikinsTests-Prefix.pch"; sourceTree = "<group>"; };
 		AC99F67713CD462A00EBC2E1 /* QikPikinsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QikPikinsTests.h; sourceTree = "<group>"; };
 		AC99F67913CD462A00EBC2E1 /* QikPikinsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QikPikinsTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
